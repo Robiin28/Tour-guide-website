@@ -1,6 +1,7 @@
 # Tour-and-Travel-Website
 Tour and Travel Website built with HTML, CSS, Vanilla JavaScript, PHP and MySQL
-//this website have separate sites for admins and user , admin has privilage to add,remove manage tours and accounts of tourists , as copying assume this follow the instruction to use tour website but admin part is found by , localhost/turd/admin then fill usrnamee and password if u encounter problem , go to speecfic database and add useer and password for adminn part
+//this website have separate sites for admins and user , admin has privilage to add,remove manage tours and accounts of tourists , as copying assume this follow the instruction to use tour website but admin part is found by ,
+localhost/turd/admin then fill usrname and password if you encounter problem , go to specfic database and add user and password for adminn part
 xamp is mandotry in this .
 # Getting Started
 
