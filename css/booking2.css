@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .booksvg {
+      height: 54px;
+      width: 44px;
+  }
+  html{
+      font-size: 63.5%;
+      overflow-x: hidden;
+      scroll-padding-top: 6rem;
+      scroll-behavior: smooth;
+    }
+    
+    section{
+      margin-top: 20px;
+      padding: 0 10%;    
+    }
+  
+  .book .row{    
+      margin-top: 0;        
+      display: flex;
+      flex-wrap: wrap;
+      gap:1.5rem;
+      align-items: center;
+    }
+    .book .row .image{
+      flex:1 1 40rem;
+    }
+    
+    .book .row .image img{
+      height:100%;
+    }
+    
+    .book .row form{
+      border: 1px solid rgb(238, 237, 236);
+      flex:1 1 40rem;
+      padding: 0 2rem;    
+      border-radius: .5rem;
+      
+    }
+    
+    .book .row form .inputBox{
+      padding:.5rem 0;
+    }
+    
+    .book .row form .inputBox input, select{
+      box-sizing: border-box;
+      width:100%;
+      padding:1rem;
+      border:.1rem solid rgba(0,0,0,.1);
+      font-size: 1.4rem;
+      color:#411D0D;
+      font-family: 'poppins';
+      text-transform: none;
+      
+      margin: 0;
+    }
+    
+    .book .row form .inputBox h3{
+      font-size: 2rem;
+      padding:1rem 0;
+      color:#411D0D;
+      font-family: 'poppins';
+    }
+    select option {
+      margin: 40px;
+      background: white;
+      color: #411D0D;    
+    }
+    select option:hover {
+      color: #000;
+      box-shadow: inset 20px 20px #fff;
+    }
+    .booking{
+      display: inline-block;
+      margin-top: 1rem;
+      background-color:white;
+      color:#411D0D;
+      width: 6em;
+      padding:.8rem 3rem;
+      border:.2rem solid ;
+      cursor: pointer;
+      font-size: 1.7rem;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.15s,color 0.15s,border 0.15s;
+      -webkit-transition: background-color 0.15s,color 0.15s,border 0.15s;
+      -moz-transition: background-color 0.15s,color 0.15s,border 0.15s;
+      -ms-transition: background-color 0.15s,color 0.15s,border 0.15s;
+      -o-transition: background-color 0.15s,color 0.15s,border 0.15s;
+  }
+    
+    .booking:hover{
+      background:#411D0D;
+      color: white;
+      border: .2rem solid #411D0D;
+    }
+    .heading{
+      font-family: 'poppins';
+      font-weight: 600;
+      text-align: center;
+      padding:2.5rem 0;
+    }
+    
+    .heading span{
+      font-size: 3rem;
+      background : #411D0D;
+      color: white;
+      border-radius: .5rem;
+      padding:.2rem 1rem;
+    }
+    
+    .heading span.space{
+      background : none;
+    }
+    .text-destinations{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 120px;
+      text-align: center;
+      color: #411D0D;
+  }
+  .text-description{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 39px;
+      text-align: center;
+      color: #565656;
+  }
+  
+
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .destination-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-destinations {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-description {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .destination-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .destination-image {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .destination-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-image:hover img {
+    transform: scale(1.05);
+  }
+  
+  .destination-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .destination-details .details-item {
+    flex: 1;
+    font-size: 18px;
+  }
+  
+  .destination-details .details-item:first-child {
+    margin-right: 10px;
+  }
+  
+    @media (max-width:450px){
+  
+      html{
+        font-size: 50%;
+      }
+    
+      .heading span{
+        font-size: 2.5rem;
+      }
+    
+      .contact .row form .inputBox input{
+        width:100%;
+      }
+    
+    }
+  
+  

@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #411D0D;
+    font-family: 'poppins';
+}
+
+.nav-bar-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.comp-logo {
+    background-color: #411D0D;
+    margin-bottom: -20px;
+}
+
+.comp-logo svg {
+    height: 60px;
+    width: 70px;
+}
+
+.comp-logo svg path {
+    fill: white;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.tabs li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c7dcdc;
+    font-weight: 500;
+}
+
+/* show log out button when user is logged in */
+
+.tabs li .loggedin{
+    display: block;
+}
+
+.tabs li a#selected{
+    color: #5dd5d3;
+}

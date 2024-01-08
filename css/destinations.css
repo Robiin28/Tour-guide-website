@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.container-destination{
+    display: grid;
+    height: 400vh;    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.15fr 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:  
+       "move move move"  
+        "more more more" 
+        "sidebar content1 content2"
+        "sidebar content3 content3"
+        "content4 content5 content6"
+        "sidebar2 sidebar2 sidebar2"
+        "content7 content8 sidebar3"
+        "content9 content9 sidebar3"
+    ;
+    grid-gap: 0.4rem;
+} 
+.move{
+    background-image: url('/assets/images/danakil.png');
+    grid-area: move;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.light
+{
+    padding-left: 40px;
+    height: 168px;
+    width: 873.6307373046875px;
+    left: 71.456787109375px;
+    padding-top: 150px;
+    border-radius: nullpx;
+    color:#787D7D;
+    font-family: Allison;
+    font-size: 201px;
+    font-weight: 800;
+    line-height: 282px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text-move{
+    padding-left: 40px;
+    width: 1031px;
+    height: 160px;
+    left: 46px;
+    padding-top: 106px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 228px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.more{
+    background-color: white;
+    grid-area: more;
+}
+.text-more{
+    padding-top: 20px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79px;
+    line-height: 82px;
+    text-align: center;
+    color: #5D3F1D;
+}
+.text-destinations{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 120px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #411D0D;
+}
+.text-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #565656;
+}
+
+.sidebar{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background: #9F9F9F;
+    background-image: url(../assets/images/Axum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 10px;
+    grid-area: sidebar;
+}
+.content1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content1;
+    background-image: url(../assets/images/tisabbay1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.content2{
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    background: #9F9F9F;    
+    border-radius: 10px;
+    grid-area: content2; 
+    background-image: url(../assets/images/40menich.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.content3{
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content3;
+    background-image: url(../assets/images/fassil6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+.sidebar2{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: sidebar2;   
+     background-image: url(../assets/images/wenchi2.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content4{
+    margin-left: 150px;
+    margin-top: 20px;    
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content4;
+    background-image: url(../assets/images/lalibela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content5{
+    margin-left: 10px;
+    margin-top: 20px;    
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content5;
+    background-image: url(../assets/images/harer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content6{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content6;
+    background-image: url(../assets/images/omo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebar3{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: sidebar3;
+    background-image: url(../assets/images/lalibela-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content7{
+    margin-left: 150px;
+    margin-top: 20px;    
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content7;
+    background-image: url(../assets/images/Tana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content8{
+    margin-left: 10px;
+    margin-top: 20px;   
+    margin-bottom: 10px;
+    background: #9F9F9F;
+    border-radius: 10px;;
+    grid-area: content8;
+    background-image: url(../assets/images/danakil-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content9{
+    margin-left: 150px;
+    margin-top: 0;    
+    margin-bottom: 20px;
+    background: #9F9F9F;
+    border-radius: 10px;
+    grid-area: content9;
+    background-image: url(../assets/images/simen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination-images{
+    width: 100%; 
+    height: 30vh;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}

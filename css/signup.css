@@ -1,0 +1,136 @@
+
+.signup-form .namelogo>svg {
+    height: 3.8rem;
+    width: 3rem;
+}
+
+.signup-form .namelogo {
+    display: flex;
+    justify-content: left;
+}
+
+.container h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #411D0D;
+    margin-bottom: 1rem;
+}
+
+.signup-form .namelogo h1 {
+    font-size: 2rem;
+}
+
+
+.signup-form label {
+    margin: 1rem;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-align: left;
+    color: #411D0D;
+}
+
+.signup-form .form-container input {
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #B8D6BF;
+    display: block;
+    font-size: 18px;
+    font-family: 'poppins';
+    color: #422c13;
+}
+
+.signup-form input:focus {
+    background-color: #ceecce;
+}
+/* for validation  */
+.signup-form input:valid { 
+  border: 1px solid green;
+}
+
+.signup-form input:invalid {
+  border: 1px solid red;
+}
+
+.signup-form span {
+    text-align: end;
+    display: block;
+    font-family: 'poppins';
+    margin: 10px;
+    color: #411D0D;
+}
+
+.signup-form span a {
+    color: #411D0D;
+    cursor: pointer;
+}
+.signup-form button {
+    font-family: 'poppins';
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #5C3E1C;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.signup-form button:hover {
+    background-color: #422c13;
+}
+
+.signup-form .inp {
+    padding-right: 35px;
+    margin: 7px 0 7px 0;
+}
+
+.signup-form span.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-form .close-btn {
+    position: relative;
+    font-weight: 600;
+    font-family: 'poppins';
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    left: 90%;
+    top: 5px;
+    justify-content: center;
+    background-color: #411D0D;
+    cursor: pointer;
+}
+
+.signup-form{
+    width:30%;
+    border:1px solid grey;
+    border-radius: 8px;
+    margin:10% auto;
+    padding:2%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.success{
+    color:rgb(19, 219, 79);
+    font-style: bold;
+}
+.error{
+color:red;
+font-style: bold;
+}
+.text-center{
+    text-align: center;
+}

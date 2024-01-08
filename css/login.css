@@ -1,0 +1,159 @@
+body
+{
+    background-image: url('../assets/images/omo.png');
+    font-family: 'poppins';
+}
+
+.login-form .namelogo>svg {
+    height: 54px;
+    width: 44px;
+}
+
+.login-form .namelogo {
+    display: flex;
+    justify-content: left;
+    /* align-items: center;     */
+
+}
+
+.login-form .namelogo svg {
+    margin-right: 18px;
+}
+
+.login-form .namelogo h1 {
+    font-size: 32px;
+}
+
+.login-form form h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #411D0D;
+}
+
+.login-form h3.welcome {
+    font-family: 'poppins';
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #58745E;
+}
+
+.login-form label {
+    margin: 15px;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-align: left;
+    color: #411D0D;
+}
+
+.login-form .form-container input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #B8D6BF;
+    display: block;
+    font-size: 18px;
+    font-family: 'poppins';
+    color: #422c13;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.login-form input:focus {
+    background-color: #ceecce;
+}
+
+.login-form input:valid {
+    border: 1px solid green;
+  }
+  
+  .login-form input:invalid {
+    border: 1px solid red;
+  }
+  
+
+
+.login-form span {
+    text-align: end;
+    display: block;
+    font-family: 'poppins';
+    margin: 10px;
+    color: #411D0D;
+}
+
+.login-form span a {
+    color: #411D0D;
+    cursor: pointer;
+}
+.login-form button {
+    font-family: 'poppins';
+    height: 48px;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #5C3E1C;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #422c13;
+}
+
+.login-form .inp {
+    padding-right: 35px;
+    margin: 7px 0 7px 0;
+}
+
+.login-form span.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form .close-btn {
+    position: relative;
+    font-weight: 600;
+    font-family: 'poppins';
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    left: 90%;
+    top: 5px;
+    justify-content: center;
+    background-color: #411D0D;
+    cursor: pointer;
+}
+.login-form{
+    width:30%;
+    border:1px solid grey;
+    border-radius: 8px;
+    margin:10% auto;
+    padding:2%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.success{
+    color:rgb(19, 219, 79);
+    font-style: bold;
+}
+.error{
+color:red;
+font-style: bold;
+}
+.text-center{
+    text-align: center;
+}
